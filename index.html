@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="icon" href="Imagenes/icono.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Desencriptador</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="titulo">Desencriptador</h1>
+    </header>
+    
+    <main>
+
+        <section class="contenedor_cajas">
+            
+            <div class="caja-texto">
+                <textarea placeholder="Sólo minúsculas, sin acentos, ni caracteres especiales"></textarea>
+            <div class="botones">
+                <button class="botonCifrar">Cifrar</button>
+                <button class="botonDescifrar">Descifrar</button>
+            </div>
+            </div>
+            <div id= caja-resultado class="caja-resultado">
+                <textarea id="area-resultado" readonly="readonly"></textarea>        
+                <button class="botonCopiar">Copiar</button>
+            </div>
+            
+        </section>
+
+    </main>
+    
+
+    <footer>
+        
+        <div class="copyright">
+            <p>&copy Copyright Maximiliano rios - 2024</p>
+        </div>
+        <div class="redes">
+            <a href="https://github.com/naakhurz" target="_blank"><i class="fa-brands fa-github-alt iconRedes fa-xl" style="color:#ffffff"></i></a>
+            <a href="https://www.linkedin.com/in/omar-maximiliano-rios-6524921b0/" target="_blank"><i class="fa-brands fa-linkedin fa-xl iconRedes" style="color:#ffffff"></i></a>
+        </div>
+        
+    </footer>
+
+    <script src="javascript.js"></script>
+    <script src="https://kit.fontawesome.com/961cfbd158.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
